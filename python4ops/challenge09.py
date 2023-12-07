@@ -44,3 +44,28 @@ elif b >= c:
         print("b is greater than or equal to c")
 else:
      print("b is equal to c") 
+
+
+'''
+Pursue stretch goals if you are a more advanced user or have remaining lab time.
+
+Create an if statement with two conditions by using and between conditions.
+
+Create an if statement with two conditions by using or between conditions.
+
+Create a nested if statement.
+
+Create an if statement that includes pass to avoid errors.
+'''
+
+
+if a == b and c < b:
+     print("c is less than both a and b")
+elif a > b or b < c:
+     print("b is less than either a and c")
+     if a == b and b == c:
+          print("all numbers are equal")
+          if a < b and b > c:
+               pass
+else:
+    print("Im not doing more math, bye! ")
